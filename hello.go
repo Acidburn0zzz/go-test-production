@@ -25,6 +25,6 @@ func sayHello() {
 		time.Sleep(200 * time.Millisecond)
 		c <- "SO LONG!"
 	}()
-	c <- "OH HAI ʕ•͡ᴥ•ʔ"
+	c <- "OH HAI ∞ ʕ•͡ᴥ•ʔ"
 	fmt.Println(<-c)
 }
